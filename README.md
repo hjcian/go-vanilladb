@@ -7,7 +7,9 @@
     - [How to change language of error message?](#how-to-change-language-of-error-message)
     - [main function? file name?](#main-function-file-name)
     - [Differences between "`extends`" and "`implements`](#differences-between-extends-and-implements)
-  - [Course Materials](#course-materials)
+  - [Learning Materials](#learning-materials)
+    - [清大課程-雲端資料庫](#清大課程-雲端資料庫)
+    - [Golang Learning |【Go 夜读】#117 详解 rosedb 及存储模型](#golang-learning-go-夜读117-详解-rosedb-及存储模型)
 
 ## Java dev environment setup
 - install [Java Extension Pack](https://code.visualstudio.com/docs/java/java-tutorial#_installing-extensions) for existing VS Code user
@@ -66,8 +68,12 @@ or a JavaFX application class must extend javafx.application.Application
   - 指定此 derived class 繼承自某個 parent class
 ...
 
-## Course Materials
-> CS 471000 Introduction to Database Systems - Implementation, architectural design, and trade-offs.
->
-> https://nthu-datalab.github.io/db/
+## Learning Materials
 
+### 清大課程-雲端資料庫
+- CS 471000 Introduction to Database Systems - Implementation, architectural design, and trade-offs.
+- https://nthu-datalab.github.io/db/
+
+### Golang Learning |【Go 夜读】#117 详解 rosedb 及存储模型
+- https://www.youtube.com/watch?v=Knh7EYfVIKs
+- https://talkgo.org/t/topic/2386
