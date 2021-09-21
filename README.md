@@ -1,28 +1,23 @@
-# database from scratch
-- [database from scratch](#database-from-scratch)
-  - [Database FAQ](#database-faq)
-    - [How ACID been implemented?](#how-acid-been-implemented)
-    - [How database stores data into disk?](#how-database-stores-data-into-disk)
-    - [How database indexes data in memory and save persistent?](#how-database-indexes-data-in-memory-and-save-persistent)
-    - [How to restore from crash?](#how-to-restore-from-crash)
-    - [How the efficient way to do concurrent access?](#how-the-efficient-way-to-do-concurrent-access)
-  - [Learning Materials](#learning-materials)
-    - [清大課程-雲端資料庫](#清大課程-雲端資料庫)
-    - [Golang Learning |【Go 夜读】#117 详解 rosedb 及存储模型](#golang-learning-go-夜读117-详解-rosedb-及存储模型)
+# go-vanilladb
+- [go-vanilladb](#go-vanilladb)
+  - [學習目標](#學習目標)
+  - [學習素材](#學習素材)
+  - [延伸閱讀](#延伸閱讀)
 
-## Database FAQ
-### How ACID been implemented?
-### How database stores data into disk?
-### How database indexes data in memory and save persistent?
-### How to restore from crash?
-### How the efficient way to do concurrent access?
+## 學習目標
+RDBMS：
+- 如何實作 ACID 特性？
+- 如何將一筆 record 儲存到 file system？
+- 如何索引資料? 索引又是如何儲存到 file system？
+- 如何處理 crash 時、保證資料不遺失？
+- 如何處理高併發情境？
 
-## Learning Materials
+## 學習素材
 
-### 清大課程-雲端資料庫
-- CS 471000 Introduction to Database Systems - Implementation, architectural design, and trade-offs.
-- https://nthu-datalab.github.io/db/
+- 清大課程-雲端資料庫
+  - CS 471000 Introduction to Database Systems - Implementation, architectural design, and trade-offs. https://nthu-datalab.github.io/db/
 
-### Golang Learning |【Go 夜读】#117 详解 rosedb 及存储模型
-- https://www.youtube.com/watch?v=Knh7EYfVIKs
-- https://talkgo.org/t/topic/2386
+## 延伸閱讀
+- Golang Learning |【Go 夜读】#117 详解 rosedb 及存储模型
+  - https://www.youtube.com/watch?v=Knh7EYfVIKs
+  - https://talkgo.org/t/topic/2386
