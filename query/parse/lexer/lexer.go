@@ -2,7 +2,7 @@ package lexer
 
 import (
 	"errors"
-	"naivedb/lexer/tokenizer"
+	"naivedb/query/parse/tokenizer"
 	"strings"
 )
 

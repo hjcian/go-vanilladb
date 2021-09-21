@@ -1,3 +1,5 @@
+package java_practice;
+
 import java.util.concurrent.TimeUnit;
 
 class MyThread extends Thread {

@@ -1,3 +1,5 @@
+package java_practice;
+
 class FooTest {
     // static void main(String[] args) {
     // System.out.println("For Geeks class");
